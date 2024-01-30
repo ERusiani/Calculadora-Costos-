@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "DellaRespira";
+    src: url("../assets/Fonts/DellaRespira-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEB2A8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: rgb(159, 113, 113);
+    padding: 50px;
+    text-align: center;
+}
+.curved {
+    position: relative;
+    background: rgb(74, 53, 52);
+    height: 9vh;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+}
+
+    .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #D3948C;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 200% ;
+    text-align: center;
+    color: #FEB2A8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 135%;
+    font-weight: lighter;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botonindx {
+    font-size: 80%;
+    width: 15%;
+    height: 30px;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D3948C;
+    border: 1px solid #291D1B;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+footer .iconoSocial {
+    font-size: 24px;
+    color: rgb(159, 113, 113);
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer .iconoSocial:hover {
+    color: rgb(74, 53, 52);
+}

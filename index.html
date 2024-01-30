@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./assets/Img/resizelogo.webp" type="image/x-icon">
+<link rel="stylesheet" href= "css/style.css">
+
+<title>Calculadora Precio de Piezas</title>
+</head>
+<body>
+
+<header>
+        <img src="./assets/Img/resizelogo.webp" class="img-responsive" alt="logoSinFondo";>    
+        </img>
+</header>
+
+<section class="curved">
+<br>
+        <h1>Calculadora Precio de Piezas</h1>
+</section>
+<br>
+
+<div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+<br>
+
+<label for="cantidadArcilla">Cantidad de arcilla en kg:</label>
+        <input type="number" id="cantidadArcilla">
+<br>
+
+<label for="costoArcilla">Costo de la arcilla por kg:</label>
+        <input type="number" id="costoArcilla">
+<br>
+
+<label for="costoEngobe">Costo del engobe para esta pieza:</label>
+        <input type="number" id="costoEngobe">
+<br>
+
+<label for="costoEsmalte">Costo del esmalte para esta pieza:</label>
+        <input type="number" id="costoEsmalte">
+<br>
+
+<label for="costoHorneada">Costo de la horneada:</label>
+        <input type="number" id="costoHorneada">
+<br>
+
+<label for="tiempo">Tiempo de producción en horas:</label>
+        <input type="number" id="tiempo">
+<br>
+<br>
+
+<button class="botonindx" id="btn-calcular">Calcular Costo</button>
+<button class="botonindx" id="btn-mostrar-guardadas">Mostrar Piezas Guardadas</button>
+</div>
+
+
+<div id="resultado"></div>
+
+<script src="./js/main.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<br>
+
+<footer> 
+        <a class="iconoSocial" href="https://www.instagram.com/ysc.arte/" target="_blank">
+        <ion-icon name="logo-instagram" size="large"></ion-icon>
+        </a>
+        <a class="iconoSocial" href="https://facebook.com/profile.php?id=100067224834848&_rdr" target="_blank">
+        <ion-icon name="logo-facebook" size="large"></ion-icon>
+        </a>
+        <a class="iconoSocial" href="https://ar.pinterest.com/canoyaniras/" target="_blank">
+        <ion-icon name="logo-pinterest" size="large"></ion-icon> 
+        </a>
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </footer>
+
+
+</body>
+</html>
